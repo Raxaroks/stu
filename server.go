@@ -27,8 +27,6 @@ func main() {
 		log.Fatal("Error while loading the env file!")
 	}
 
-	// try to connect to DB
-
 	// setting server up
 	appPort := os.Getenv("APP_PORT")
 	if appPort == "" {
